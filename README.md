@@ -6,7 +6,7 @@ _by Anna Huang_
 ## Git vs. GitHub
 ##### _What is the difference between them?_
 
-Git is like a version control system storing all the repositories and can also keep changes and undo any certain checkpoints. It takes "snapshots" of code and doesn't require GitHub. GitHub on the other hand, stores the code into the cloud, known as the websites. It visually tracks changes and collaboration on any files is allowed.
+Git is like a version control system storing all the repositories and can also keep changes and undo any certain checkpoints. It takes "snapshots" of code and doesn't require GitHub. GitHub on the other hand, stores the code into the cloud, put on a website when connected the two.
 
 ---
 ## Initial Setup
@@ -15,7 +15,6 @@ To create a GitHub account:
 2. Click sign up
 3. Insert your email, username, and password
 
-_* If you are a student at HSTAT, use your HSTAT email, but without the @hstat.org when inserting your username_
 
 Setting up your IDE:
 * Directions are here in this [link](https://github.com/hstatsep/ide50)
@@ -57,7 +56,7 @@ git push -u origin master
 ## Workflow & Commands
 * **git status** - an optional command that lets the programmer locate which files are staged for the commit (stated in green and in red if it's not committed)
 * **git add** - used when you are adding all files that have been edited (also includes the ones that are deleted or renamed) onto the staging area
-* ** git commit -m "message"** - takes a snapshot of the files on the stage
+* **git commit -m "message"** - takes a snapshot of the files on the stage
   _NOTE: the message should be in present-tense and describe what was changed in the snapshot_
 * **git push** - sends any changes from the local repo "up" (cloud, aka ide) to the remote repo (GitHub)
 
@@ -66,7 +65,7 @@ git push -u origin master
 ## Rolling Back Changes
 To undo an edit, git checkout --  filename should be used. This undos the recent changes you have done.
 
-To undo an add, use git reset HEAD filename. THis removes the revisions from the stage area
+To undo an add, use git reset HEAD filename. This removes the revisions from the stage area
 
 To undo a commit, use git reset --soft HEAD~1, to save the undone changes OR git reset --hard HEAD~1 to fully delete the edits/changes
 
