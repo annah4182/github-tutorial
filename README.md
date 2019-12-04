@@ -14,7 +14,7 @@ _by Anna Huang_
 **GitHub** on the other hand, 
 * stores the code into the cloud
 * visually tracks changes 
-* collaboration on any files is allowed
+* collaboration on any files 
 
 ---
 ## Initial Setup
@@ -39,7 +39,7 @@ Setting up your IDE:
 2. Once created, you `cd` into it
 3. When you're inside the folder, use `git init` to make it turn to a repo. To check that you have done it right, you should see the word "master"
 4. Create a file using `touch <file name>` and `c9 <file name>` in order to go into the file to edit and make changes
-5. When you're done with your editings, use `git add .` to include the changes onto the staging area
+5. When you're done with your editings, use `git add .` to include all the changes onto the staging area
 6. Lastly, use `git commit -m "message"` to label the specific changes you made
 
 To link repository into IDE:
