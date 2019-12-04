@@ -75,3 +75,13 @@ To undo an add, use `git reset HEAD <filename>`. This removes the revisions from
 To undo a commit, use `git reset --soft HEAD~1`, to save the undone changes OR `git reset --hard HEAD~1` to fully delete the edits/changes
 
 To undo a push, type `git log` and look for SHA, the commit that you choose to revert back. Type `git revert  <sha/hash>`. Then, use `git reset HEAD^ --hard` and `git push origin master` for the commites to be the same in the cloud and the remote. 
+
+
+
+
+---
+## Collaboration
+* **Forking** - to make a copy of a repo from another person's into your GitHub and you can make your own changes from it.  
+* **Cloning** -  creating a local copy of the code provided by developer to your local repo. Use `git clone <url` and then `cd` into it
+* **Push requests** - forcing the changes being presented in the targeted repo. Use `git push`
+* **Pull requests** - provides the developer's code to share with others and to allow others take a look at their code before merging it to integration branch and leaving comments. The owner of the original repo can either deny or accept the edits which the other person left. Use `git pull`
