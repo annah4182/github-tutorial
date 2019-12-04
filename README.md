@@ -6,7 +6,14 @@ _by Anna Huang_
 ## Git vs. GitHub
 ##### _What is the difference between them?_
 
-Git is like a version control system storing all the repositories and can also keep changes and undo any certain checkpoints. It takes "snapshots" of code and doesn't require GitHub. GitHub on the other hand, stores the code into the cloud, known as the websites. It visually tracks changes and collaboration on any files is allowed.
+Git is like a version control system storing all the repositories.
+* runs in the command line
+* used in the local remote
+* useful for version control
+GitHub on the other hand, 
+* stores the code into the cloud
+* visually tracks changes 
+* collaboration on any files is allowed
 
 ---
 ## Initial Setup
@@ -22,9 +29,6 @@ Setting up your IDE:
 
 **What is the SSH key?** SSH key, known as the Secure Shell is a one time setup where it doesn't require you to enter your username and password everytime.
 **Why do we need SSH?** We need the SSH keys to make sure that the user is interacting with the repository.
-
-
-
 
 
 
